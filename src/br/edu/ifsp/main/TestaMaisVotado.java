@@ -1,14 +1,16 @@
-package br.edu.ifsp;
+package br.edu.ifsp.main;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import br.edu.ifsp.MaisVotado;
+
 public class TestaMaisVotado {
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner scanner = new Scanner(
-				new FileInputStream("caminho-do-seu-arquivo/arquivo.txt"));
+				new FileInputStream("/Users/thiagoteramae/ifsp-workspace/probabilidade-estatistica/src/candidatos.txt"));
 
 		List<Integer> amostra = new ArrayList<>();
 

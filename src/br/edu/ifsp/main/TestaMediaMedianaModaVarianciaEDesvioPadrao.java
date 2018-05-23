@@ -1,9 +1,15 @@
-package br.edu.ifsp;
+package br.edu.ifsp.main;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import br.edu.ifsp.DesvioPadrao;
+import br.edu.ifsp.Media;
+import br.edu.ifsp.Mediana;
+import br.edu.ifsp.Moda;
+import br.edu.ifsp.Variancia;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
